@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.3'
 gem 'mysql2', '0.2.6'
+gem 'nokogiri', '~> 1.4'
+
 group :test, :development do
   gem "rspec-rails", "~> 2.4"
   gem "nifty-generators"

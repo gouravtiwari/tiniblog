@@ -73,3 +73,11 @@ a {
 .error_messages ul {
   margin: 0;
 }
+
+#navigation, #navigation a {
+  text-align: right; color: yellow;
+}
+
+.feed_title{
+  font-weight: bold; background-color: cadetblue;
+}
