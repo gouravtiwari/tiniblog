@@ -1,0 +1,12 @@
+<% title "TiniBlog" %>
+<% for feed in @feeds  %>
+  <%= link_to feed.name, feed.name %>
+<% end %><br/><br/>
+<%  for item in @items%>
+  <div class="feed_title">
+    <%= raw item[:title] %>
+  </div>
+  <div class="feed_description">
+    <%= raw item[:description] %>
+  </div>
+<% end %>
