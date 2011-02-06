@@ -4,6 +4,7 @@ gem 'rails', '3.0.3'
 gem 'mysql2', '0.2.6'
 group :test, :development do
   gem "rspec-rails", "~> 2.4"
+  gem "nifty-generators"
 end
 
 # Bundle edge Rails instead:
@@ -33,3 +34,4 @@ end
 # group :development, :test do
 #   gem 'webrat'
 # end
+gem "mocha", :group => :test
